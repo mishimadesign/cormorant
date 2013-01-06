@@ -1,0 +1,15 @@
+smtp:
+ address:   smtp.gmail.com
+ port:      587
+ domain:    gmail
+ username:  example
+ password:  example
+
+targets:
+ - uri:   http://www.example.com/
+   word:  example
+   mail:  example@gmail.com
+ - uri:   http://www.example.net/
+   word:  example1|example2|example3
+   mail:  example@gmail.com
+
